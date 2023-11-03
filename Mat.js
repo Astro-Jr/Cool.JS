@@ -16,11 +16,33 @@ export function getCircleArea(radius) {
   }
 }
 
-export function getRectArea(width, height){
+export function getRectArea(width, height) {
   try {
     return width * height; 
   } catch(error) {
     return error;
   }
   
+}
+
+export function doTetra(base, height) {
+  let res = 1;
+
+  for(let i = 0; i < height; i++){
+    res = Math.pow(base, result);
+  }
+
+  return result;
+}
+
+export function getRecth(width, height) {
+  return 2 * (width + height);
+}
+
+export function doHypoH(hypo, width) {
+  return Math.sqrt(Math.pow(hypo,2) - Math.pow(width , 2));
+}
+
+export function doHypoW(hypo, height) {
+  return Math.sqrt(Math.pow(hypo, 2) - Math.pow(height, 2));
 }
