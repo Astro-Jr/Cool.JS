@@ -34,9 +34,12 @@ export function doTetra(base, height) {
 
   return result;
 }
-
-export function getRecth(width, height) {
+export function getRectLen(width, height) {
   return 2 * (width + height);
+}
+
+export function doHypo(width, height) {
+  return Math.pow(width, 2) + Math.pow(height, 2);
 }
 
 export function doHypoH(hypo, width) {
@@ -45,4 +48,8 @@ export function doHypoH(hypo, width) {
 
 export function doHypoW(hypo, height) {
   return Math.sqrt(Math.pow(hypo, 2) - Math.pow(height, 2));
+}
+
+export function domatX(equation) {
+   return equation;
 }
