@@ -8,6 +8,6 @@ some important things on functions etc
 you can use this url
 <code>https://raw.githubusercontent.com/Astro-Jr/Cool.JS/main/filename.js</code>
 
-<ul type="i">
+<ol type="i">
   <li><code>https://raw.githubusercontent.com/Astro-Jr/Cool.JS/main/Mat.js</code></li>
-</ul>
+</ol>
